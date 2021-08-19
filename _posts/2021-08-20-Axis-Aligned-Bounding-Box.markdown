@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2021-08-19 21:45:04 +0900
-categories: jekyll
+title:  "AABB(Axis Aligned Bounding Box)"
+date:   2021-08-20 02:16:00 +0900
+categories: algorithm
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
