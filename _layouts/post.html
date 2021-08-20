@@ -27,7 +27,7 @@ sidebar:
 
     {%- assign result = hidden | where_exp: "item", "item == 'navigator'" -%}
     {%- if result.size == 0 -%}
-    <div class="post-nav">
+    <div class="post-nav notranslate">
       {%- if page.previous -%}
         <a class="previous" href="{{ page.previous.url | relative_url }}" title="{{
           page.previous.title | escape }}">{{ page.previous.title | escape | truncatewords: 6 }}</a>
@@ -45,7 +45,7 @@ sidebar:
 
     {%- assign result = hidden | where_exp: "item", "item == 'related_posts'" -%}
     {%- if result.size == 0 -%}
-    <div class="post-related">
+    <div class="post-related notranslate">
       <div>Related Articles</div>
       <ul>
         {% assign posts = site[page.collection] | sample:4 %}
