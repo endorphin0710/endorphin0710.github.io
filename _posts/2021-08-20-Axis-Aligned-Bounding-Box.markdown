@@ -152,7 +152,6 @@ if (distance < circle1.radius + circle2.radius) {
 
   window.addEventListener("keydown", move, false);
   function move(e){
-    e.preventDefault();
     switch(e.keyCode){
       case 37:
         if(me.x-me.speed >= 0){
